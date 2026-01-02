@@ -111,7 +111,7 @@ export default function DeathCauseAnalysisSection({
     if (document && document.body) {
       document.body.setAttribute(
         "data-municipality",
-        "Khajura Rural Municipality / बुद्धशान्ति गाउँपालिका",
+        "Khajura Rural Municipality / केराबारी गाउँपालिका",
       );
       document.body.setAttribute("data-total-deaths", totalDeaths.toString());
 

@@ -1,8 +1,8 @@
 {% extends 'reports/base.html' %} {% load static %} {% load nepali_filters %} {%
-block title %} सूचीपत्र - बुद्धशान्ति गाउँपालिका {% endblock %} {% block
-description %} बुद्धशान्ति गाउँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदनको
+block title %} सूचीपत्र - केराबारी गाउँपालिका {% endblock %} {% block
+description %} केराबारी गाउँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदनको
 सम्पूर्ण सूचीपत्र। सबै विषयहरू र उप-विषयहरूको विस्तृत सूची। {% endblock %} {%
-block keywords %} सूचीपत्र, विषयसूची, बुद्धशान्ति, गाउँपालिका, प्रतिवेदन {%
+block keywords %} सूचीपत्र, विषयसूची, केराबारी, गाउँपालिका, प्रतिवेदन {%
 endblock %} {% block breadcrumb %}
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
@@ -18,16 +18,16 @@ endblock %} {% block breadcrumb %}
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "सूचीपत्र",
-    "description": "बुद्धशान्ति गाउँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदनको सम्पूर्ण सूचीपत्र।",
+    "description": "केराबारी गाउँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदनको सम्पूर्ण सूचीपत्र।",
     "url": "{{ request.build_absolute_uri }}",
     "isPartOf": {
       "@type": "WebSite",
-      "name": "बुद्धशान्ति गाउँपालिका",
+      "name": "केराबारी गाउँपालिका",
       "url": "{% url 'reports:home' %}"
     },
     "publisher": {
       "@type": "GovernmentOrganization",
-      "name": "बुद्धशान्ति गाउँपालिका"
+      "name": "केराबारी गाउँपालिका"
     }
   }
 </script>
@@ -37,7 +37,7 @@ endblock %} {% block breadcrumb %}
     <div>
       <h1><i class="fas fa-list me-3"></i>सूचीपत्र</h1>
       <p class="lead text-muted">
-        बुद्धशान्ति गाउँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदन
+        केराबारी गाउँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदन
       </p>
     </div>
     <div class="no-print">
@@ -64,7 +64,7 @@ endblock %} {% block breadcrumb %}
           <tr>
             <td class="fw-bold">शीर्षक:</td>
             <td>
-              बुद्धशान्ति गाउँपालिका - डिजिटल प्रोफाइल र वार्षिक प्रतिवेदन
+              केराबारी गाउँपालिका - डिजिटल प्रोफाइल र वार्षिक प्रतिवेदन
             </td>
           </tr>
           <tr>
@@ -93,7 +93,7 @@ endblock %} {% block breadcrumb %}
       <div class="col-md-4 text-center">
         <div class="p-4 bg-light rounded">
           <i class="fas fa-city fa-4x text-primary mb-3"></i>
-          <h5>बुद्धशान्ति गाउँपालिका</h5>
+          <h5>केराबारी गाउँपालिका</h5>
           <p class="text-muted">नेपाल सरकार<br />स्थानीय तह</p>
         </div>
       </div>

@@ -1,8 +1,8 @@
 {% extends 'reports/base.html' %} {% load static %} {% load nepali_filters %} {%
-block title %} चित्रहरूको सूची - बुद्धशान्ति गाउँपालिका {% endblock %} {% block
-description %} बुद्धशान्तिँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदनमा प्रयोग
+block title %} चित्रहरूको सूची - केराबारी गाउँपालिका {% endblock %} {% block
+description %} केराबारीँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदनमा प्रयोग
 गरिएका सबै चित्रहरू, आंकडाहरू र ग्राफहरूको सूची। {% endblock %} {% block
-keywords %} चित्रहरू, आंकडाहरू, ग्राफ, बुद्धशान्तिउँपालिका, प्रतिवेदन {%
+keywords %} चित्रहरू, आंकडाहरू, ग्राफ, केराबारीउँपालिका, प्रतिवेदन {%
 endblock %} {% block breadcrumb %}
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
@@ -18,16 +18,16 @@ endblock %} {% block breadcrumb %}
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "चित्रहरूको सूची",
-    "description": "बुद्धशान्तिँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदनमा प्रयोग गरिएका सबै चित्रहरूको सूची।",
+    "description": "केराबारीँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदनमा प्रयोग गरिएका सबै चित्रहरूको सूची।",
     "url": "{{ request.build_absolute_uri }}",
     "isPartOf": {
       "@type": "WebSite",
-      "name": "बुद्धशान्तिँपालिका",
+      "name": "केराबारीँपालिका",
       "url": "{% url 'reports:home' %}"
     },
     "publisher": {
       "@type": "GovernmentOrganization",
-      "name": "बुद्धशान्तिँपालिका"
+      "name": "केराबारीँपालिका"
     }
   }
 </script>
@@ -37,7 +37,7 @@ endblock %} {% block breadcrumb %}
     <div>
       <h1><i class="fas fa-images me-3"></i>चित्रहरूको सूची</h1>
       <p class="lead text-muted">
-        बुद्धशान्तिँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदन
+        केराबारीँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदन
       </p>
     </div>
     <div class="no-print">

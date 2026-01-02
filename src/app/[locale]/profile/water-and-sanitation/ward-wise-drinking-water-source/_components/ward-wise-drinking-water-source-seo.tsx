@@ -88,11 +88,11 @@ export default function WardWiseDrinkingWaterSourceSEO({
     return {
       "@context": "https://schema.org",
       "@type": "Dataset",
-      name: "Drinking Water Sources in Khajura Rural Municipality (बुद्धशान्ति गाउँपालिका)",
+      name: "Drinking Water Sources in Khajura Rural Municipality (केराबारी गाउँपालिका)",
       description: `Analysis of drinking water sources across ${wardNumbers.length} wards of Khajura Rural Municipality with a total of ${totalHouseholds.toLocaleString()} households. ${waterSourceGroupTotals.PIPED_WATER.toLocaleString()} households (${waterSourceGroupPercentages.PIPED_WATER.toFixed(2)}%) have access to piped water. The highest piped water access rate is in Ward ${highestPipedWaterWard?.wardNumber || ""} with ${highestPipedWaterWard?.percentage.toFixed(2) || ""}%.`,
       keywords: [
         "Khajura Rural Municipality",
-        "बुद्धशान्ति गाउँपालिका",
+        "केराबारी गाउँपालिका",
         "Drinking water sources",
         "Piped water access",
         "Ward-wise water sources",

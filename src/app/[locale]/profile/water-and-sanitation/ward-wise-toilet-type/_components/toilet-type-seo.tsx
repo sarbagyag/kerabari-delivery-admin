@@ -75,11 +75,11 @@ export default function ToiletTypeSEO({
     return {
       "@context": "https://schema.org",
       "@type": "Dataset",
-      name: "Toilet Types in Khajura Rural Municipality (बुद्धशान्ति गाउँपालिका)",
+      name: "Toilet Types in Khajura Rural Municipality (केराबारी गाउँपालिका)",
       description: `Analysis of toilet types across ${wardNumbers.length} wards of Khajura Rural Municipality with a total of ${totalHouseholds.toLocaleString()} households. ${sanitizedPercentage}% of households have proper toilet facilities. The most common toilet type is ${mostCommonTypeName} with ${mostCommonType?.households.toLocaleString()} households (${mostCommonTypePercentage}%).`,
       keywords: [
         "Khajura Rural Municipality",
-        "बुद्धशान्ति गाउँपालिका",
+        "केराबारी गाउँपालिका",
         "Toilet types",
         "Sanitation facilities",
         "Flush toilets",

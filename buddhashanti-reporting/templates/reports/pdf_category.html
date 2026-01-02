@@ -1,10 +1,10 @@
 {% extends 'reports/pdf_base.html' %} {% load nepali_filters %} {% block title
-%} {{ category.name_nepali|default:category.name }} - बुद्धशान्ति गाउँपालिका {%
+%} {{ category.name_nepali|default:category.name }} - केराबारी गाउँपालिका {%
 endblock %} {% block chapter_header %} {{
 category.name_nepali|default:category.name }} {% endblock %} {% block content %}
 <!-- Cover Page -->
 <div class="cover-page">
-  <div class="cover-title">बुद्धशान्ति गाउँपालिका</div>
+  <div class="cover-title">केराबारी गाउँपालिका</div>
   <div class="cover-subtitle">
     {{ category.name_nepali|default:category.name }}
   </div>
@@ -34,7 +34,7 @@ category.name_nepali|default:category.name }} {% endblock %} {% block content %}
     {% endif %}
 
     <div style="margin-top: 2em; font-size: 10pt">
-      © {% now "Y" %} बुद्धशान्ति गाउँपालिका। सबै अधिकार सुरक्षित।
+      © {% now "Y" %} केराबारी गाउँपालिका। सबै अधिकार सुरक्षित।
     </div>
   </div>
 </div>
@@ -234,7 +234,7 @@ category.name_nepali|default:category.name }} {% endblock %} {% block content %}
       {% endif %} {% if category_tables %}
       <li>कुल {{ category_tables|length }} वटा तालिकाहरू समावेश छन्</li>
       {% endif %}
-      <li>यो क्षेत्र बुद्धशान्ति गाउँपालिकाको समग्र विकासमा महत्वपूर्ण छ</li>
+      <li>यो क्षेत्र केराबारी गाउँपालिकाको समग्र विकासमा महत्वपूर्ण छ</li>
     </ul>
   </div>
 
@@ -283,9 +283,9 @@ category.name_nepali|default:category.name }} {% endblock %} {% block content %}
     <div>
       <h4>सम्पर्क जानकारी:</h4>
       <p style="font-size: 10pt">
-        बुद्धशान्ति गाउँपालिका<br />
+        केराबारी गाउँपालिका<br />
         गाउँ कार्यपालिकाको कार्यालय,<br />
-        बुद्धशान्ति, रोल्पा, कोशी प्रदेश
+        केराबारी, रोल्पा, कोशी प्रदेश
       </p>
     </div>
     <div>
@@ -301,7 +301,7 @@ category.name_nepali|default:category.name }} {% endblock %} {% block content %}
 
   <div class="text-center mt-2">
     <p style="font-size: 9pt; color: #666">
-      © {% now "Y" %} बुद्धशान्ति गाउँपालिका। सबै अधिकार सुरक्षित।
+      © {% now "Y" %} केराबारी गाउँपालिका। सबै अधिकार सुरक्षित।
     </p>
   </div>
 </div>

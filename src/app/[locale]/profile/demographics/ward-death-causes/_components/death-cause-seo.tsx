@@ -39,11 +39,11 @@ export default function DeathCauseSEO({
     return {
       "@context": "https://schema.org",
       "@type": "Dataset",
-      name: "Causes of Death in Khajura Rural Municipality (बुद्धशान्ति गाउँपालिका)",
+      name: "Causes of Death in Khajura Rural Municipality (केराबारी गाउँपालिका)",
       description: `Death cause distribution data across ${wardNumbers.length} wards of Khajura Rural Municipality with a total of ${totalDeaths.toLocaleString()} recorded deaths.`,
       keywords: [
         "Khajura Rural Municipality",
-        "बुद्धशान्ति गाउँपालिका",
+        "केराबारी गाउँपालिका",
         "Death causes",
         "Mortality statistics",
         "Ward-wise death cause data",

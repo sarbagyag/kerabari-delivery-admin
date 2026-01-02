@@ -1,23 +1,23 @@
 {% extends 'reports/base.html' %} {% load static %} {% load nepali_filters %} {%
-block title %} बुद्धशान्ति गाउँपालिका - डिजिटल प्रोफाइल र वार्षिक प्रतिवेदन {%
-endblock %} {% block description %} बुद्धशान्ति गाउँपालिका - नेपालको डिजिटल
+block title %} केराबारी गाउँपालिका - डिजिटल प्रोफाइल र वार्षिक प्रतिवेदन {%
+endblock %} {% block description %} केराबारी गाउँपालिका - नेपालको डिजिटल
 प्रोफाइल र वार्षिक प्रतिवेदन। जनसंख्या, आर्थिक, सामाजिक, वातावरणीय र पूर्वाधार
 विकासका विस्तृत तथ्यांक र विश्लेषण। {% endblock %} {% block keywords %}
-बुद्धशान्ति, गाउँपालिका, नेपाल, प्रतिवेदन, डिजिटल प्रोफाइल, जनसंख्या, आर्थिक
+केराबारी, गाउँपालिका, नेपाल, प्रतिवेदन, डिजिटल प्रोफाइल, जनसंख्या, आर्थिक
 अवस्था, सामाजिक संकेतक, वातावरण, पूर्वाधार, सुशासन {% endblock %} {% block
 structured_data %}
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "GovernmentOrganization",
-    "name": "बुद्धशान्ति गाउँपालिका",
+    "name": "केराबारी गाउँपालिका",
     "alternateName": "buddhashanti Rural Municipality",
-    "description": "बुद्धशान्ति गाउँपालिका - नेपालको डिजिटल प्रोफाइल र वार्षिक प्रतिवेदन।",
+    "description": "केराबारी गाउँपालिका - नेपालको डिजिटल प्रोफाइल र वार्षिक प्रतिवेदन।",
     "url": "{{ request.build_absolute_uri }}",
     "address": {
       "@type": "PostalAddress",
       "addressCountry": "NP",
-      "addressLocality": "बुद्धशान्ति"
+      "addressLocality": "केराबारी"
     },
     "sameAs": [],
     "publishingPrinciples": "{{ request.build_absolute_uri }}",
@@ -26,14 +26,14 @@ structured_data %}
     "dateModified": "{{ publication_settings.last_updated|date:'c' }}",
     "publisher": {
       "@type": "GovernmentOrganization",
-      "name": "बुद्धशान्ति गाउँपालिका"
+      "name": "केराबारी गाउँपालिका"
     }
   }
 </script>
 {% endblock %} {% block content %}
 <!-- Hero Section -->
 <section class="content-header text-center mb-5">
-  <h1 class="display-4 mb-3">बुद्धशान्ति गाउँपालिका</h1>
+  <h1 class="display-4 mb-3">केराबारी गाउँपालिका</h1>
   <p class="lead text-muted mb-4">डिजिटल प्रोफाइल र वार्षिक प्रतिवेदन</p>
 
   {% if publication_settings %}

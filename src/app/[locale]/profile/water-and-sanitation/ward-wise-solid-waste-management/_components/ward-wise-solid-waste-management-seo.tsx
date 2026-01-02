@@ -111,11 +111,11 @@ export default function WardWiseSolidWasteManagementSEO({
     return {
       "@context": "https://schema.org",
       "@type": "Dataset",
-      name: "Solid Waste Management in Khajura Rural Municipality (बुद्धशान्ति गाउँपालिका)",
+      name: "Solid Waste Management in Khajura Rural Municipality (केराबारी गाउँपालिका)",
       description: `Analysis of solid waste management methods across ${wardNumbers.length} wards of Khajura Rural Municipality with a total of ${totalHouseholds.toLocaleString()} households. ${wasteManagementTotals.HOME_COLLECTION?.toLocaleString() || 0} households (${wasteManagementPercentages.HOME_COLLECTION?.toFixed(2) || 0}%) use home waste collection methods. The highest home collection rate is in Ward ${highestHomeCollectionWard?.wardNumber || ""} with ${highestHomeCollectionWard?.percentage.toFixed(2) || ""}%.`,
       keywords: [
         "Khajura Rural Municipality",
-        "बुद्धशान्ति गाउँपालिका",
+        "केराबारी गाउँपालिका",
         "Solid waste management",
         "Home waste collection",
         "Ward-wise waste management",

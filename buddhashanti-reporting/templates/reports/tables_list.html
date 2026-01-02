@@ -1,8 +1,8 @@
 {% extends 'reports/base.html' %} {% load static %} {% load nepali_filters %} {%
-block title %} तालिकाहरूको सूची - बुद्धशान्ति गाउँपालिका {% endblock %} {% block
-description %} बुद्धशान्ति गाउँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदनमा
+block title %} तालिकाहरूको सूची - केराबारी गाउँपालिका {% endblock %} {% block
+description %} केराबारी गाउँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदनमा
 प्रयोग गरिएका सबै तालिकाहरूको सूची र डेटा। {% endblock %} {% block keywords %}
-तालिकाहरू, डेटा, सांख्यिकी, बुद्धशान्ति, गाउँपालिका, प्रतिवेदन {% endblock %} {%
+तालिकाहरू, डेटा, सांख्यिकी, केराबारी, गाउँपालिका, प्रतिवेदन {% endblock %} {%
 block breadcrumb %}
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
@@ -18,16 +18,16 @@ block breadcrumb %}
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "तालिकाहरूको सूची",
-    "description": "बुद्धशान्ति गाउँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदनमा प्रयोग गरिएका सबै तालिकाहरूको सूची।",
+    "description": "केराबारी गाउँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदनमा प्रयोग गरिएका सबै तालिकाहरूको सूची।",
     "url": "{{ request.build_absolute_uri }}",
     "isPartOf": {
       "@type": "WebSite",
-      "name": "बुद्धशान्ति गाउँपालिका",
+      "name": "केराबारी गाउँपालिका",
       "url": "{% url 'reports:home' %}"
     },
     "publisher": {
       "@type": "GovernmentOrganization",
-      "name": "बुद्धशान्ति गाउँपालिका"
+      "name": "केराबारी गाउँपालिका"
     }
   }
 </script>
@@ -37,7 +37,7 @@ block breadcrumb %}
     <div>
       <h1><i class="fas fa-table me-3"></i>तालिकाहरूको सूची</h1>
       <p class="lead text-muted">
-        बुद्धशान्ति गाउँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदन
+        केराबारी गाउँपालिका डिजिटल प्रोफाइल र वार्षिक प्रतिवेदन
       </p>
     </div>
     <div class="no-print">

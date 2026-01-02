@@ -1,12 +1,12 @@
 {% extends 'reports/pdf_base.html' %} {% load nepali_filters %} {% block title
 %} {{ section.title_nepali|default:section.title }} - {{
-category.name_nepali|default:category.name }} - बुद्धशान्ति गाउँपालिका {%
+category.name_nepali|default:category.name }} - केराबारी गाउँपालिका {%
 endblock %} {% block chapter_header %} {{
 category.name_nepali|default:category.name }} - {{
 section.title_nepali|default:section.title }} {% endblock %} {% block content %}
 <!-- Cover Page -->
 <div class="cover-page">
-  <div class="cover-title">बुद्धशान्तिँपालिका</div>
+  <div class="cover-title">केराबारीँपालिका</div>
   <div class="cover-subtitle">
     {{ section.title_nepali|default:section.title }}
   </div>
@@ -42,7 +42,7 @@ section.title_nepali|default:section.title }} {% endblock %} {% block content %}
     {% endif %}
 
     <div style="margin-top: 2em; font-size: 10pt">
-      © {% now "Y" %} बुद्धशान्तिँपालिका। सबै अधिकार सुरक्षित।
+      © {% now "Y" %} केराबारीँपालिका। सबै अधिकार सुरक्षित।
     </div>
   </div>
 </div>
